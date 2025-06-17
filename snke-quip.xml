@@ -5,8 +5,10 @@
 	<remote name="bl-vied"  fetch="git@github.com:brainlab-vied"/>
 	<remote name="OSSystems" fetch="https://github.com/OSSystems"/>
 	<remote name="kraj" fetch="https://github.com/kraj"/>
+	<remote name="yocto" fetch="https://git.yoctoproject.org"/>
 
 	<project remote="bl-vied"	revision="master"       name="meta-snke"       path="sources/meta-snke"/>
 	<project remote="OSSystems"     revision="kirkstone"    name="meta-browser"    path="sources/meta-browser"/>
-	<project remote="kraj"		revision="kirkstone"    name="meta-clang"       path="sources/meta-clang"/>
+	<project remote="kraj"		revision="langdale"    name="meta-clang"       path="sources/meta-clang"/>
+	<project remote="yocto"		revision="kirkstone/rust"    name="meta-lts-mixins"       path="sources/meta-lts-mixins"/>
 </manifest>
