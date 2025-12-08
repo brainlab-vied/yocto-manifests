@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="default.xml"/>
+    <remote name="bl-vied"  fetch="git@github.com:brainlab-vied"/>
+    <project remote="bl-vied"	revision="master"       name="meta-snke"       path="sources/meta-snke"/>
+</manifest>
